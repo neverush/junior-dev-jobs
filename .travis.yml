@@ -10,6 +10,7 @@ script:
 deploy:
   provider: heroku
   app: alwy-jdjobs-dev
+  skip_cleanup: true
   api_key:
     secure:
       "wC8DbbLUMOLlMm+Lj36l1GnViTkr/X/F8kWfE8THPCFvDuM8LlxsPWVk92sNCjE5mNq5+ussOLRXzYrzlT+TQZaQz5hbrn0rfYF3CJ4XYQ8fas1Am8CUlzXVD/EWrRsRwfyyRdQb8H82ICElnzGSb0gHyk/reAF4/7Z5oNv4GySnGjARWv9Pvse5QsH7Bl0lk/fEKLKln88EDa1xorVYVJ3e+hdTj9cpnmtsJX6MHE4mkch4SVjorMMt52fDcYnpq0qwAr5B9gsiX6YS0u0JsHxqklS+cxbmKNfTXa2jGVk2GQWXqvxSBp3GOssZESnMIotRVPWZFd24K5KwQmm07YwD7U8YIYO5lpTuss6jus8VbhM3BBzrVRq92s72BmancEEh1LKeqSJXs0fydYJ+ACR3ui1zX006qRYxcgJJ913uqWTmRvdXzbCBqIMwijcQds02tSE8daJwn/Z6TPmpnTLhCu8uEvv03+OoflijSgG/tJPQARNInBGxfiX5eo8qgYkSu7T4Ejy7YADsr+qG4OC0d7Oy3wT80I5r/uesbW1mE9hAT6e979xwGXLot6OlYfjoc/cWSRGeX/WZmPpfOGvdWOz/HzLceruaoFHGOz6PCKvt5F+xlTi6uQ7enuMStrwvs21U1u+gCwjGuUVx2XWcquVYfmFjHmy3AvR+BTE="
