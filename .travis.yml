@@ -1,4 +1,9 @@
+#tells travis what language are we writing in
 language: node_js
+node_js:
+  - "node"
+
+#"cache" tells Travis to keep some files between builds
 cache:
   directories:
     - "node_modules"
