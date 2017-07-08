@@ -1,3 +1,3 @@
 #!/bin/bash
-./build.sh
-./test.sh
+./build/build.sh
+./build/test.sh
